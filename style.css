@@ -1,0 +1,95 @@
+   *{
+    font-family: 'Gill Sans’, 'Gill Sans MT’, Calibri, 'Trebuchet MS’, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    }
+    body {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+    
+    .container {
+    max-width: 5000px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: teaL;
+    /* box-shadow:10px 10px 10px whitesmoke;  */
+    box-shadow: 0 4px 8px 0 rgba(249, 243, 243, 0.775), 0 6px 20px 0 rgba(236, 232, 232, 0.72);
+    }
+    
+    .controls {
+    margin: 10px;
+    }
+    
+    .wrapper {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    textarea {
+    margin: 10px;
+    font-size: 18px;
+    width: 200px;
+    height: 120px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    resize: none;
+    }
+    
+    .translate-btn {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 95%;
+    padding: 10px;
+    cursor: pointer;
+    background-color:teal;
+    color: #d4f1f4;
+    }
+    
+    ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    }
+    
+    /* .button-from {
+    margin-left: 10px;
+    } */
+    
+    .button-to {
+    margin-right: 10px;
+    }
+    
+    .from {
+    border-right: 1px solid black;
+    border-radius: 5px 0px 0px 0px;
+    }
+
+    i{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+    }
+    #lang-to
+    {
+        margin-right: 10px;
+    }
+    #lang-from
+    {
+        margin-left: 10px;
+    }
